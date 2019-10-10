@@ -1,10 +1,11 @@
 import React from 'react';
 
-export function Image(props){
+export default function Image(props){
+   
     return (
         <div>
             {props.image}
-            <button></button>
+            <button>heart this image</button>
         </div>
     )
 
